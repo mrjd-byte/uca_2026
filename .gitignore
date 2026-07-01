@@ -1,0 +1,30 @@
+You are reading README
+# Java
+*.class
+
+# Compiled files
+*.o
+*.out
+*.exe
+
+# Logs
+*.log
+
+# VS Code
+.vscode/
+
+# IntelliJ
+.idea/
+
+# macOS
+.DS_Store
+
+# Linux
+*~
+
+# Python
+__pycache__/
+*.pyc
+
+# Node
+node_modules/
