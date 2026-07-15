@@ -1,0 +1,6 @@
+#include <stdio.h>
+
+int main() {
+    printf("Hello, UCA 2026!");
+    return 0;
+}
