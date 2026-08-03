@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int bitSign(int x) {
-    return !!x || (x >> 31);
+    return !!x | (x >> 31);
 }
 
 int main(){
