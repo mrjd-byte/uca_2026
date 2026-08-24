@@ -1,6 +1,6 @@
 import java.util.Stack;
 
-public class Main {
+public class Bal_paranthesis {
     public static boolean isBalanced(String expression) {
         Stack<Character> stack = new Stack<>();
 
@@ -32,7 +32,7 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        System.out.println(isBalanced("[()]{}{[()()]}")); // true
-        System.out.println(isBalanced("[()"));             // false
+        System.out.println(isBalanced("[()]{}{[()()]}")); // this is true
+        System.out.println(isBalanced("[()"));             // thIS Is false
     }
 }
